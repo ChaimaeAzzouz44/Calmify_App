@@ -1,0 +1,179 @@
+.recommendations-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5fafd; /* Couleur de fond douce */
+}
+
+.video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-card {
+    background-color: #e3f2fd; /* Couleur de fond claire et douce */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.video-card:hover {
+    transform: scale(1.03); /* Effet de zoom léger au survol */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus marquée */
+}
+
+.video-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0d47a1; /* Bleu foncé pour le titre */
+}
+
+.video-card p {
+    font-size: 14px;
+    color: #555; /* Gris pour la description */
+}
+
+.video-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1565c0; /* Bleu vif pour le lien */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-card a:hover {
+    text-decoration: underline;
+    color: #1abc9c; /* Couleur plus foncée au survol */
+}.recommendations-container {
+     padding: 20px;
+     text-align: center;
+     background-color: #f0f7fa; /* Fond similaire au calendrier */
+ }
+
+/* Style pour la section des conseils */
+.advice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.advice-card {
+    background: linear-gradient(to right, #d6eaf8, #eaf2f8); /* Dégradé de bleu clair */
+    padding: 15px;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.advice-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.advice-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2874a6; /* Bleu similaire aux boutons du calendrier */
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.advice-card h4::before {
+    content: "🔹"; /* Ajout d'un icône de style */
+    margin-right: 8px;
+}
+
+.advice-card p {
+    font-size: 16px;
+    color: #5d6d7e; /* Gris légèrement bleuté pour la lisibilité */
+}
+
+/* Icône et titre Advice */
+h3 {
+    color: #154360; /* Bleu foncé pour le titre */
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3::before {
+    content: "📌 ";
+    font-size: 20px;
+    color: #dc7633; /* Accent chaleureux */
+    margin-right: 8px;
+}
+.recommendations-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e3eff4; /* Fond similaire à la sidebar */
+    border-radius: 15px;
+}
+
+/* Style pour la section des conseils */
+.advice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.advice-card {
+    background: white; /* Fond blanc pour contraster avec la sidebar */
+    padding: 15px;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #7da6b5; /* Bordure latérale en bleu sidebar */
+}
+
+.advice-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.advice-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5b7d8a; /* Bleu foncé cohérent avec la sidebar */
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.advice-card h4::before {
+    content: "💡"; /* Icône inspirante */
+    margin-right: 8px;
+    color: #4b6c7d; /* Bleu sidebar */
+}
+
+.advice-card p {
+    font-size: 16px;
+    color: #5d6d7e; /* Gris légèrement bleuté */
+}
+
+/* Icône et titre Advice */
+h3 {
+    color: #2c4859; /* Bleu foncé cohérent avec les titres de la sidebar */
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3::before {
+    content: "📌 ";
+    font-size: 20px;
+    color: #e67e22; /* Accent orange subtil */
+    margin-right: 8px;
+}
