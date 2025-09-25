@@ -50,4 +50,11 @@ It’s more than just a chatbot — it’s a companion that listens, understands
 - 🌐 Responsive and intuitive user interface  
 
 ---
+## Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ChaimaeAzzouz44/Calmify_App.git
+
 # Calmify_App
+
